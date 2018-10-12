@@ -1,3 +1,4 @@
 composer.lock
 vendor
 src/components
+src/components/mycomp

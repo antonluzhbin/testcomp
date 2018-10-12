@@ -1,0 +1,3 @@
+[submodule "mycomp"]
+	path = src/components/mycomp
+	url = git@github.com:antonluzhbin/mycomp.git
