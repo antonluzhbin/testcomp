@@ -1,0 +1,18 @@
+{
+  "require": {
+    "php": ">=5.3",
+    "mnsami/composer-custom-directory-installer": "1.1.*",
+    "test/mycomp":"dev-master"
+  },
+  "repositories":[
+    {
+      "type":"git",
+      "url":"https://github.com/antonluzhbin/mycomp.git"
+    }
+  ],
+  "extra": {
+    "installer-paths": {
+      "src/components/{$name}": ["test/mycomp"]
+    }
+  }
+}
